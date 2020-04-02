@@ -1,3 +1,2 @@
 # TimeTracking
-This id test configuration2
-dsds
+This is first configuration
