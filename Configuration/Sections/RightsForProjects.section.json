@@ -1,0 +1,13 @@
+{
+  "Add": {
+    "InsertQueryCode": "RightsForProjects_InsertRow"
+  },
+  "ModelType": "Section",
+  "Code": "RightsForProjects",
+  "Name": "2. Права для проектов",
+  "FormCode": "RightsForProjects",
+  "SelectRowsQueryCode": "RightsForProjects_SelectRows",
+  "SelectRowQueryCode": "RightsForProjects_SelectRow",
+  "UpdateQueryCode": "RightsForProjects_UpdateRow",
+  "DeleteQueryCode": "RightsForProjects_DeleteRow"
+}

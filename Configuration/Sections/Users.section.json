@@ -1,0 +1,13 @@
+{
+  "Add": {
+    "InsertQueryCode": "Users_InsertRow"
+  },
+  "ModelType": "Section",
+  "Code": "Users",
+  "Name": "6. Пользователи",
+  "FormCode": "Users",
+  "SelectRowsQueryCode": "Users_SelectRows",
+  "SelectRowQueryCode": "Users_SelectRow",
+  "UpdateQueryCode": "Users_UpdateRow",
+  "DeleteQueryCode": "Users_DeleteRow"
+}

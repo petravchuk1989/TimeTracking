@@ -1,0 +1,13 @@
+{
+  "ModelType": "Form",
+  "Code": "RightsForProjects",
+  "Name": "2. Права для проектов",
+  "IsPrintable": false,
+  "Details": [],
+  "Config": {
+    "FieldGroups": [
+      "string:FieldGroups\\Group1.fieldgroup.json"
+    ],
+    "DefaultFields": []
+  }
+}

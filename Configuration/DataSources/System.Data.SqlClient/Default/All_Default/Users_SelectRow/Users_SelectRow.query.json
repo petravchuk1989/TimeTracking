@@ -1,0 +1,67 @@
+{
+  "ModelType": "Query",
+  "Code": "Users_SelectRow",
+  "Name": "Users_SelectRow",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false,
+  "Columns": [
+    {
+      "Code": "Id",
+      "Name": "Id",
+      "Position": 0,
+      "IsPrintable": false
+    },
+    {
+      "Code": "SystemUserId",
+      "Name": "SystemUserId",
+      "Position": 1,
+      "IsPrintable": false
+    },
+    {
+      "Code": "FIO",
+      "Name": "FIO",
+      "Position": 2,
+      "IsPrintable": false
+    },
+    {
+      "Code": "CreatedAt",
+      "Name": "CreatedAt",
+      "Position": 3,
+      "IsPrintable": false
+    },
+    {
+      "Code": "CreatedUserById",
+      "Name": "CreatedUserById",
+      "Position": 4,
+      "IsPrintable": false
+    },
+    {
+      "Code": "EditedAt",
+      "Name": "EditedAt",
+      "Position": 5,
+      "IsPrintable": false
+    },
+    {
+      "Code": "EditedUserById",
+      "Name": "EditedUserById",
+      "Position": 6,
+      "IsPrintable": false
+    },
+    {
+      "Code": "SystemUserName",
+      "Name": "SystemUserName",
+      "Position": 7,
+      "IsPrintable": false,
+      "ReferenceKeyCode": "SystemUserId"
+    }
+  ],
+  "Parameters": [
+    {
+      "Code": "@Id",
+      "Name": "Id",
+      "ParameterType": "Integer",
+      "IsPrimaryKey": true
+    }
+  ]
+}

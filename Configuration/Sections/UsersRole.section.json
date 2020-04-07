@@ -1,0 +1,13 @@
+{
+  "Add": {
+    "InsertQueryCode": "UsersRole_InsertRow"
+  },
+  "ModelType": "Section",
+  "Code": "UsersRole",
+  "Name": "8. Роли/пользователи",
+  "FormCode": "UsersRole",
+  "SelectRowsQueryCode": "UsersRole_SelectRows",
+  "SelectRowQueryCode": "UsersRole_SelectRow",
+  "UpdateQueryCode": "UsersRole_UpdateRow",
+  "DeleteQueryCode": "UsersRole_DeleteRow"
+}

@@ -1,0 +1,8 @@
+{
+  "ModelType": "Query",
+  "Code": "RightsForProjects_UpdateRow",
+  "Name": "RightsForProjects_UpdateRow",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false
+}

@@ -1,0 +1,8 @@
+{
+  "ModelType": "Query",
+  "Code": "TimeTrack_InsertRow",
+  "Name": "TimeTrack_InsertRow",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false
+}

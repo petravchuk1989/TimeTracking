@@ -1,0 +1,15 @@
+{
+  "ModelType": "Form",
+  "Code": "ListTasks",
+  "Name": "3. Список заданий",
+  "IsPrintable": false,
+  "Details": [
+    "string:Details\\TimeTrack_DetListTasks.detail.json"
+  ],
+  "Config": {
+    "FieldGroups": [
+      "string:FieldGroups\\Group1.fieldgroup.json"
+    ],
+    "DefaultFields": []
+  }
+}

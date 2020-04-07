@@ -1,0 +1,15 @@
+{
+  "ModelType": "Form",
+  "Code": "Project",
+  "Name": "1. Проекты",
+  "IsPrintable": false,
+  "Details": [
+    "string:Details\\ListTasks_DetProject.detail.json"
+  ],
+  "Config": {
+    "FieldGroups": [
+      "string:FieldGroups\\Group1.fieldgroup.json"
+    ],
+    "DefaultFields": []
+  }
+}

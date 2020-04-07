@@ -1,0 +1,31 @@
+{
+  "ModelType": "Query",
+  "Code": "UsersRole_UpdateRow",
+  "Name": "UsersRole_UpdateRow",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false,
+  "Parameters": [
+    {
+      "Code": "@EditedUserById",
+      "Name": "EditedUserById",
+      "ParameterType": "CurrentUserId"
+    },
+    {
+      "Code": "@Id",
+      "Name": "Id",
+      "ParameterType": "Integer",
+      "IsPrimaryKey": true
+    },
+    {
+      "Code": "@RoleId",
+      "Name": "RoleId",
+      "ParameterType": "Integer"
+    },
+    {
+      "Code": "@UsersId",
+      "Name": "UsersId",
+      "ParameterType": "Integer"
+    }
+  ]
+}

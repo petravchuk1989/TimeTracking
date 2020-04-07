@@ -1,0 +1,8 @@
+{
+  "ModelType": "Query",
+  "Code": "ListTasks_UpdateRow",
+  "Name": "ListTasks_UpdateRow",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false
+}

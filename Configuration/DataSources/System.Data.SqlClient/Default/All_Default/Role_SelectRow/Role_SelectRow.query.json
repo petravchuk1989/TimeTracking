@@ -1,0 +1,54 @@
+{
+  "ModelType": "Query",
+  "Code": "Role_SelectRow",
+  "Name": "Role_SelectRow",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false,
+  "Columns": [
+    {
+      "Code": "Id",
+      "Name": "Id",
+      "Position": 0,
+      "IsPrintable": false
+    },
+    {
+      "Code": "Name",
+      "Name": "Name",
+      "Position": 1,
+      "IsPrintable": false
+    },
+    {
+      "Code": "CreatedAt",
+      "Name": "CreatedAt",
+      "Position": 2,
+      "IsPrintable": false
+    },
+    {
+      "Code": "CreatedUserById",
+      "Name": "CreatedUserById",
+      "Position": 3,
+      "IsPrintable": false
+    },
+    {
+      "Code": "EditedAt",
+      "Name": "EditedAt",
+      "Position": 4,
+      "IsPrintable": false
+    },
+    {
+      "Code": "EditedUserById",
+      "Name": "EditedUserById",
+      "Position": 5,
+      "IsPrintable": false
+    }
+  ],
+  "Parameters": [
+    {
+      "Code": "@Id",
+      "Name": "Id",
+      "ParameterType": "Integer",
+      "IsPrimaryKey": true
+    }
+  ]
+}

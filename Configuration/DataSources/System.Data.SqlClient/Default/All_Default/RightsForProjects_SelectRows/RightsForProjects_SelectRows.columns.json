@@ -1,0 +1,68 @@
+[
+  {
+    "Code": "Id",
+    "Name": "Id",
+    "Position": 0,
+    "IsPrimaryKey": true,
+    "ViewState": "Hidden",
+    "IsPrintable": false,
+    "SqlName": "[RightsForProjects].[Id]",
+    "FilterParameterCode": "@Id"
+  },
+  {
+    "Code": "ProjectId",
+    "Name": "ProjectId",
+    "Position": 1,
+    "ViewState": "Hidden",
+    "IsPrintable": false
+  },
+  {
+    "Code": "Name",
+    "Name": "Проект",
+    "Position": 2,
+    "IsPrintable": false
+  },
+  {
+    "Code": "UsersId",
+    "Name": "UsersId",
+    "Position": 3,
+    "ViewState": "Hidden",
+    "IsPrintable": false
+  },
+  {
+    "Code": "FIO",
+    "Name": "Пользователь",
+    "Position": 4,
+    "IsPrintable": false
+  },
+  {
+    "Code": "Accessibility",
+    "Name": "Доступность",
+    "Position": 5,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CreatedAt",
+    "Name": "Дата создания записи",
+    "Position": 6,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CreatedUserById",
+    "Name": "Id пользователя",
+    "Position": 7,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EditedAt",
+    "Name": "Дата редактирования записи",
+    "Position": 8,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EditedUserById",
+    "Name": "Id пользователя, кто редактировал",
+    "Position": 9,
+    "IsPrintable": false
+  }
+]

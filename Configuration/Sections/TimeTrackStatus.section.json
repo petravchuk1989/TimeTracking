@@ -1,0 +1,13 @@
+{
+  "Add": {
+    "InsertQueryCode": "TimeTrackStatus_InsertRow"
+  },
+  "ModelType": "Section",
+  "Code": "TimeTrackStatus",
+  "Name": "5. Перечень статусов",
+  "FormCode": "TimeTrackStatus",
+  "SelectRowsQueryCode": "TimeTrackStatus_SelectRows",
+  "SelectRowQueryCode": "TimeTrackStatus_SelectRow",
+  "UpdateQueryCode": "TimeTrackStatus_UpdateRow",
+  "DeleteQueryCode": "TimeTrackStatus_DeleteRow"
+}

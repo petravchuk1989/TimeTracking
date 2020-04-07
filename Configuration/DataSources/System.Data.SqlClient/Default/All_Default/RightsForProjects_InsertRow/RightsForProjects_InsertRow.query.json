@@ -1,0 +1,29 @@
+{
+  "ModelType": "Query",
+  "Code": "RightsForProjects_InsertRow",
+  "Name": "RightsForProjects_InsertRow",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false,
+  "Parameters": [
+    {
+      "Code": "@Accessibility",
+      "Name": "Accessibility"
+    },
+    {
+      "Code": "@CreatedUserById",
+      "Name": "CreatedUserById",
+      "ParameterType": "CurrentUserId"
+    },
+    {
+      "Code": "@UsersId",
+      "Name": "UsersId",
+      "ParameterType": "Integer"
+    },
+    {
+      "Code": "@ProjectId",
+      "Name": "ProjectId",
+      "ParameterType": "Integer"
+    }
+  ]
+}

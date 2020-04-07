@@ -1,0 +1,13 @@
+{
+  "Add": {
+    "InsertQueryCode": "Project_InsertRow"
+  },
+  "ModelType": "Section",
+  "Code": "Project",
+  "Name": "1. Проекты",
+  "FormCode": "Project",
+  "SelectRowsQueryCode": "Project_SelectRows",
+  "SelectRowQueryCode": "Project_SelectRow",
+  "UpdateQueryCode": "Project_UpdateRow",
+  "DeleteQueryCode": "Project_DeleteRow"
+}

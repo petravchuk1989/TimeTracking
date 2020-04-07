@@ -1,0 +1,13 @@
+{
+  "ModelType": "Form",
+  "Code": "UsersRole",
+  "Name": "8. Роли/пользователи",
+  "IsPrintable": false,
+  "Details": [],
+  "Config": {
+    "FieldGroups": [
+      "string:FieldGroups\\Group1.fieldgroup.json"
+    ],
+    "DefaultFields": []
+  }
+}

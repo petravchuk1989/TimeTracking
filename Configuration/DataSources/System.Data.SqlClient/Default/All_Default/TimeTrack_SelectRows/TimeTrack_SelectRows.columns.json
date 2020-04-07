@@ -1,0 +1,93 @@
+[
+  {
+    "Code": "Id",
+    "Name": "Id",
+    "Position": 0,
+    "IsPrimaryKey": true,
+    "ViewState": "Hidden",
+    "IsPrintable": false,
+    "SqlName": "[TimeTrack].[Id]",
+    "FilterParameterCode": "@Id"
+  },
+  {
+    "Code": "ListTasksId",
+    "Name": "ListTasksId",
+    "Position": 1,
+    "IsPrintable": false
+  },
+  {
+    "Code": "ListTasksName",
+    "Name": "Списки заданий",
+    "Position": 2,
+    "IsPrintable": false
+  },
+  {
+    "Code": "StartDate",
+    "Name": "Дата начала",
+    "Position": 3,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EndDate",
+    "Name": "Дата окончания",
+    "Position": 4,
+    "IsPrintable": false
+  },
+  {
+    "Code": "Note",
+    "Name": "Описание",
+    "Position": 5,
+    "IsPrintable": false
+  },
+  {
+    "Code": "StatusId",
+    "Name": "StatusId",
+    "Position": 6,
+    "ViewState": "Hidden",
+    "IsPrintable": false
+  },
+  {
+    "Code": "StatusName",
+    "Name": "Статус",
+    "Position": 7,
+    "IsPrintable": false,
+    "SqlName": "[TimeTrackStatus].[Name]",
+    "FilterParameterCode": "@StatusName"
+  },
+  {
+    "Code": "IsBusinessTime",
+    "Name": "Бизнес время",
+    "Position": 8,
+    "IsPrintable": false
+  },
+  {
+    "Code": "JiraTaskCode",
+    "Name": "Коды задач с Jira",
+    "Position": 9,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CreatedAt",
+    "Name": "Дата создания записи",
+    "Position": 10,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CreatedUserById",
+    "Name": "Id пользователя",
+    "Position": 11,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EditedAt",
+    "Name": "Дата редактирования записи",
+    "Position": 12,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EditedUserById",
+    "Name": "Id пользователя, кто редактировал",
+    "Position": 13,
+    "IsPrintable": false
+  }
+]

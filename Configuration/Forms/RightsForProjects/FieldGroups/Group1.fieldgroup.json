@@ -1,0 +1,35 @@
+{
+  "Code": "Group1",
+  "Name": "Group1",
+  "Position": 1,
+  "Fields": [
+    {
+      "Code": "UsersId",
+      "Name": "Пользователь",
+      "FieldType": "select",
+      "IsRequired": true,
+      "Position": 1,
+      "QueryCode": "List_Users",
+      "KeyColumnCode": "Id",
+      "DisplayColumnCode": "Name",
+      "QueryParameters": []
+    },
+    {
+      "Code": "Accessibility",
+      "Name": "Доступность",
+      "FieldType": "text",
+      "Position": 2
+    },
+    {
+      "Code": "ProjectId",
+      "Name": "Проект",
+      "FieldType": "select",
+      "IsRequired": true,
+      "Position": 3,
+      "QueryCode": "List_Projects",
+      "KeyColumnCode": "Id",
+      "DisplayColumnCode": "Name",
+      "QueryParameters": []
+    }
+  ]
+}

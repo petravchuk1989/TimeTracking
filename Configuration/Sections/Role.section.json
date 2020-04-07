@@ -1,0 +1,13 @@
+{
+  "Add": {
+    "InsertQueryCode": "Role_InsertRow"
+  },
+  "ModelType": "Section",
+  "Code": "Role",
+  "Name": "7. Роли",
+  "FormCode": "Role",
+  "SelectRowsQueryCode": "Role_SelectRows",
+  "SelectRowQueryCode": "Role_SelectRow",
+  "UpdateQueryCode": "Role_UpdateRow",
+  "DeleteQueryCode": "Role_DeleteRow"
+}

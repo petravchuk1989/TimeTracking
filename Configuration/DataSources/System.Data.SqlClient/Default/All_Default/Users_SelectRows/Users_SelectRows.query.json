@@ -1,0 +1,74 @@
+{
+  "ModelType": "Query",
+  "Code": "Users_SelectRows",
+  "Name": "Users_SelectRows",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false,
+  "Columns": [
+    {
+      "Code": "Id",
+      "Name": "Id",
+      "Position": 0,
+      "IsPrimaryKey": true,
+      "ViewState": "Hidden",
+      "IsPrintable": false,
+      "SqlName": "AUser.[Id]",
+      "FilterParameterCode": "@Id"
+    },
+    {
+      "Code": "SystemUserId",
+      "Name": "SystemUserId",
+      "Position": 1,
+      "IsPrintable": false,
+      "SqlName": "AUser.[SystemUserId]",
+      "FilterParameterCode": "@SystemUserId"
+    },
+    {
+      "Code": "FIO",
+      "Name": "FIO",
+      "Position": 2,
+      "IsPrintable": false,
+      "SqlName": "AUser.[FIO]",
+      "FilterParameterCode": "@FIO"
+    },
+    {
+      "Code": "CreatedAt",
+      "Name": "CreatedAt",
+      "Position": 3,
+      "IsPrintable": false
+    },
+    {
+      "Code": "CreatedUserById",
+      "Name": "CreatedUserById",
+      "Position": 4,
+      "IsPrintable": false
+    },
+    {
+      "Code": "EditedAt",
+      "Name": "EditedAt",
+      "Position": 5,
+      "IsPrintable": false
+    },
+    {
+      "Code": "EditedUserById",
+      "Name": "EditedUserById",
+      "Position": 6,
+      "IsPrintable": false
+    }
+  ],
+  "Parameters": [
+    {
+      "Code": "@pageLimitRows",
+      "Name": "pageLimitRows",
+      "ParameterType": "Integer",
+      "IsPageLimitRows": true
+    },
+    {
+      "Code": "@pageOffsetRows",
+      "Name": "pageOffsetRows",
+      "ParameterType": "Integer",
+      "IsPageOffsetRows": true
+    }
+  ]
+}

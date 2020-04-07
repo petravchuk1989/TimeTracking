@@ -1,0 +1,63 @@
+[
+  {
+    "Code": "Id",
+    "Name": "Id",
+    "Position": 0,
+    "IsPrintable": false
+  },
+  {
+    "Code": "JiraTaskCode",
+    "Name": "JiraTaskCode",
+    "Position": 1,
+    "IsPrintable": false
+  },
+  {
+    "Code": "Note",
+    "Name": "Note",
+    "Position": 2,
+    "IsPrintable": false
+  },
+  {
+    "Code": "ProjectId",
+    "Name": "ProjectId",
+    "Position": 3,
+    "IsPrintable": false
+  },
+  {
+    "Code": "ProjectName",
+    "Name": "ProjectName",
+    "Position": 4,
+    "IsPrintable": false,
+    "ReferenceKeyCode": "ProjectId"
+  },
+  {
+    "Code": "ValidDate",
+    "Name": "ValidDate",
+    "Position": 5,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CreatedAt",
+    "Name": "CreatedAt",
+    "Position": 6,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CreatedUserById",
+    "Name": "CreatedUserById",
+    "Position": 7,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EditedAt",
+    "Name": "EditedAt",
+    "Position": 8,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EditedUserById",
+    "Name": "EditedUserById",
+    "Position": 9,
+    "IsPrintable": false
+  }
+]

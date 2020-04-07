@@ -1,0 +1,20 @@
+{
+  "ModelType": "Detail",
+  "Code": "TimeTrack_DetListTasks",
+  "Name": "TimeTrack",
+  "FormCode": "TimeTrack",
+  "SelectRowsQueryCode": "TimeTrack_DetListTasks_SelectRows",
+  "SelectRowQueryCode": "TimeTrack_SelectRow",
+  "DeleteQueryCode": "TimeTrack_DeleteRow",
+  "UpdateQueryCode": "TimeTrack_UpdateRow",
+  "SectionCode": "",
+  "Position": 1,
+  "IsExpand": true,
+  "Add": {
+    "InsertQueryCode": "TimeTrack_InsertRow"
+  },
+  "QueryParameters": [{
+    "FormFieldName": "Id",
+    "ParameterCode": "@ListTaskId"
+  }]
+}

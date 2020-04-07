@@ -1,0 +1,14 @@
+{
+  "Code": "Group1",
+  "Name": "Group1",
+  "Position": 1,
+  "Fields": [
+    {
+      "Code": "Name",
+      "Name": "Наименование",
+      "FieldType": "text",
+      "IsRequired": true,
+      "Position": 1
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "Code": "Id",
+    "Name": "Id",
+    "Position": 0,
+    "IsPrintable": false
+  },
+  {
+    "Code": "ListTasksId",
+    "Name": "ListTasksId",
+    "Position": 1,
+    "IsPrintable": false
+  },
+  {
+    "Code": "StartDate",
+    "Name": "StartDate",
+    "Position": 3,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EndDate",
+    "Name": "EndDate",
+    "Position": 4,
+    "IsPrintable": false
+  },
+  {
+    "Code": "Note",
+    "Name": "Note",
+    "Position": 5,
+    "IsPrintable": false
+  },
+  {
+    "Code": "StatusId",
+    "Name": "StatusId",
+    "Position": 6,
+    "IsPrintable": false
+  },
+  {
+    "Code": "StatusName",
+    "Name": "StatusName",
+    "Position": 7,
+    "IsPrintable": false,
+    "ReferenceKeyCode": "StatusId"
+  },
+  {
+    "Code": "IsBusinessTime",
+    "Name": "IsBusinessTime",
+    "Position": 8,
+    "IsPrintable": false
+  },
+  {
+    "Code": "JiraTaskCode",
+    "Name": "JiraTaskCode",
+    "Position": 9,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CreatedAt",
+    "Name": "CreatedAt",
+    "Position": 10,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CreatedUserById",
+    "Name": "CreatedUserById",
+    "Position": 11,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EditedAt",
+    "Name": "EditedAt",
+    "Position": 12,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EditedUserById",
+    "Name": "EditedUserById",
+    "Position": 13,
+    "IsPrintable": false
+  }
+]

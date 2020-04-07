@@ -1,0 +1,27 @@
+{
+  "Code": "Group1",
+  "Name": "Group1",
+  "Position": 1,
+  "Fields": [
+    {
+      "Maxlength": 250,
+      "Code": "FIO",
+      "Name": "Ф.И.О.",
+      "FieldType": "text",
+      "IsRequired": true,
+      "Position": 1
+    },
+    {
+      "Code": "SystemUserId",
+      "Name": "Системный Id",
+      "FieldType": "select",
+      "IsRequired": true,
+      "Position": 2,
+      "Width": "100%",
+      "QueryCode": "List_UserSystem",
+      "KeyColumnCode": "Id",
+      "DisplayColumnCode": "Name",
+      "QueryParameters": []
+    }
+  ]
+}

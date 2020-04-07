@@ -1,0 +1,13 @@
+{
+  "Add": {
+    "InsertQueryCode": "ListTasks_InsertRow"
+  },
+  "ModelType": "Section",
+  "Code": "ListTasks",
+  "Name": "3. Список заданий",
+  "FormCode": "ListTasks",
+  "SelectRowsQueryCode": "ListTasks_SelectRows",
+  "SelectRowQueryCode": "ListTasks_SelectRow",
+  "UpdateQueryCode": "ListTasks_UpdateRow",
+  "DeleteQueryCode": "ListTasks_DeleteRow"
+}

@@ -1,0 +1,16 @@
+{
+  "ModelType": "Query",
+  "Code": "ListTasks_DeleteRow",
+  "Name": "ListTasks_DeleteRow",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false,
+  "Parameters": [
+    {
+      "Code": "@Id",
+      "Name": "Id",
+      "ParameterType": "Integer",
+      "IsPrimaryKey": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Code": "Group1",
+  "Name": "Group1",
+  "Position": 1,
+  "Fields": [
+    {
+      "Code": "JiraTaskCode",
+      "Name": "Код задачи Jira",
+      "FieldType": "text",
+      "IsRequired": true,
+      "Position": 1
+    },
+    {
+      "Code": "Note",
+      "Name": "Описание",
+      "FieldType": "textarea",
+      "Position": 2
+    },
+    {
+      "Code": "ProjectId",
+      "Name": "Проект",
+      "FieldType": "select",
+      "IsRequired": true,
+      "Position": 3,
+      "QueryCode": "List_Projects",
+      "KeyColumnCode": "Id",
+      "DisplayColumnCode": "Name",
+      "QueryParameters": []
+    },
+    {
+      "Code": "ValidDate",
+      "Name": "Действительно до",
+      "FieldType": "date-time",
+      "Position": 4
+    }
+  ]
+}

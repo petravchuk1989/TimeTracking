@@ -1,0 +1,31 @@
+{
+  "ModelType": "Query",
+  "Code": "UsersRole_InsertRow",
+  "Name": "UsersRole_InsertRow",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false,
+  "Parameters": [
+    {
+      "Code": "@Id",
+      "Name": "Id",
+      "ParameterType": "Integer",
+      "IsPrimaryKey": true
+    },
+    {
+      "Code": "@RoleId",
+      "Name": "RoleId",
+      "ParameterType": "Integer"
+    },
+    {
+      "Code": "@CreatedUserById",
+      "Name": "CreatedUserById",
+      "ParameterType": "CurrentUserId"
+    },
+    {
+      "Code": "@UsersId",
+      "Name": "UsersId",
+      "ParameterType": "Integer"
+    }
+  ]
+}

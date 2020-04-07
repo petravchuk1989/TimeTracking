@@ -1,0 +1,75 @@
+[
+  {
+    "Code": "Id",
+    "Name": "Id",
+    "Position": 0,
+    "IsPrimaryKey": true,
+    "ViewState": "Hidden",
+    "IsPrintable": false,
+    "SqlName": "[TimeTrack].[Id]",
+    "FilterParameterCode": "@Id"
+  },
+  {
+    "Code": "ListTasksId",
+    "Name": "ListTasksId",
+    "Position": 1,
+    "IsPrintable": false
+  },
+  {
+    "Code": "ListTasksName",
+    "Name": "ListTasksName",
+    "Position": 2,
+    "IsPrintable": false
+  },
+  {
+    "Code": "StartDate",
+    "Name": "StartDate",
+    "Position": 3,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EndDate",
+    "Name": "EndDate",
+    "Position": 4,
+    "IsPrintable": false
+  },
+  {
+    "Code": "Note",
+    "Name": "Note",
+    "Position": 5,
+    "IsPrintable": false
+  },
+  {
+    "Code": "StatusId",
+    "Name": "StatusId",
+    "Position": 6,
+    "ViewState": "Hidden",
+    "IsPrintable": false
+  },
+  {
+    "Code": "StatusName",
+    "Name": "StatusName",
+    "Position": 7,
+    "IsPrintable": false,
+    "SqlName": "[TimeTrackStatus].[Name]",
+    "FilterParameterCode": "@StatusName"
+  },
+  {
+    "Code": "IsBusinessTime",
+    "Name": "IsBusinessTime",
+    "Position": 8,
+    "IsPrintable": false
+  },
+  {
+    "Code": "JiraTaskCode",
+    "Name": "JiraTaskCode",
+    "Position": 9,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CreatedAt",
+    "Name": "CreatedAt",
+    "Position": 10,
+    "IsPrintable": false
+  }
+]

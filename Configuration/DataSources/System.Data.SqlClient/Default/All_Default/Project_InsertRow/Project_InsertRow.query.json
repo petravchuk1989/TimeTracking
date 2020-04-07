@@ -1,0 +1,25 @@
+{
+  "ModelType": "Query",
+  "Code": "Project_InsertRow",
+  "Name": "Project_InsertRow",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false,
+  "Parameters": [
+    {
+      "Code": "@Name",
+      "Name": "Name"
+    },
+    {
+      "Code": "@Id",
+      "Name": "Id",
+      "ParameterType": "Integer",
+      "IsPrimaryKey": true
+    },
+    {
+      "Code": "@CreatedUserById",
+      "Name": "CreatedUserById",
+      "ParameterType": "CurrentUserId"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ModelType": "Query",
+  "Code": "List_UserSystem",
+  "Name": "List_UserSystem",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false,
+  "Columns": [
+    {
+      "Code": "Id",
+      "Name": "Id",
+      "Position": 0,
+      "IsPrimaryKey": true,
+      "IsPrintable": false,
+      "SqlName": "[UserId]",
+      "FilterParameterCode": "@UserId"
+    },
+    {
+      "Code": "Name",
+      "Name": "Name",
+      "Position": 1,
+      "IsPrintable": false,
+      "SqlName": "([FirstName] + ' ' + [LastName] + ' ' + [Patronymic] + ' (' + [UserName]+ ')')",
+      "FilterParameterCode": "@FIO"
+    }
+  ],
+  "Parameters": [
+    {
+      "Code": "@pageOffsetRows",
+      "Name": "pageOffsetRows",
+      "ParameterType": "Integer",
+      "IsPageOffsetRows": true
+    },
+    {
+      "Code": "@pageLimitRows",
+      "Name": "pageLimitRows",
+      "ParameterType": "Integer",
+      "IsPageLimitRows": true
+    }
+  ]
+}

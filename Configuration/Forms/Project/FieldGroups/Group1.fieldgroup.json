@@ -1,0 +1,14 @@
+{
+  "Code": "Group1",
+  "Name": "Group1",
+  "Position": 1,
+  "Fields": [
+    {
+      "Code": "Name",
+      "Name": "Наименование",
+      "FieldType": "text",
+      "Position": 1,
+      "Width": "100%"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "ModelType": "Query",
+  "Code": "ListTasks_SelectRow",
+  "Name": "ListTasks_SelectRow",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false,
+  "Parameters": [
+    {
+      "Code": "@Id",
+      "Name": "Id",
+      "ParameterType": "Integer",
+      "IsPrimaryKey": true
+    }
+  ]
+}

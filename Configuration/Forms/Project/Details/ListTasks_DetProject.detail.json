@@ -1,0 +1,20 @@
+{
+  "ModelType": "Detail",
+  "Code": "ListTasks_DetProject",
+  "Name": "ListTasks",
+  "FormCode": "ListTasks",
+  "SelectRowsQueryCode": "ListTasks_DetProject_SelectRows",
+  "SelectRowQueryCode": "ListTasks_SelectRow",
+  "DeleteQueryCode": "ListTasks_DeleteRow",
+  "UpdateQueryCode": "ListTasks_UpdateRow",
+  "SectionCode": "",
+  "Position": 1,
+  "IsExpand": true,
+  "Add": {
+    "InsertQueryCode": "ListTasks_InsertRow"
+  },
+  "QueryParameters": [{
+    "FormFieldName": "Id",
+    "ParameterCode": "@ProjectId"
+  }]
+}

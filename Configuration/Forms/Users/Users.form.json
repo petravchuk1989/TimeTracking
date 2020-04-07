@@ -1,0 +1,14 @@
+{
+  "ModelType": "Form",
+  "Code": "Users",
+  "Name": "6. Пользователи",
+  "IsPrintable": false,
+  "Details": [],
+  "Config": {
+    "FieldGroups": [
+      "string:FieldGroups\\Group1.fieldgroup.json"
+    ],
+    "DefaultFields": [],
+    "Script": "string:Users.form.js"
+  }
+}

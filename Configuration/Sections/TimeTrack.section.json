@@ -1,0 +1,13 @@
+{
+  "Add": {
+    "InsertQueryCode": "TimeTrack_InsertRow"
+  },
+  "ModelType": "Section",
+  "Code": "TimeTrack",
+  "Name": "4. Трек времени",
+  "FormCode": "TimeTrack",
+  "SelectRowsQueryCode": "TimeTrack_SelectRows",
+  "SelectRowQueryCode": "TimeTrack_SelectRow",
+  "UpdateQueryCode": "TimeTrack_UpdateRow",
+  "DeleteQueryCode": "TimeTrack_DeleteRow"
+}

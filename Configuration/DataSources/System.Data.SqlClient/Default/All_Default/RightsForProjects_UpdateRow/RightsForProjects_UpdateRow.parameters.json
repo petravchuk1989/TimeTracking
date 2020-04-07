@@ -1,0 +1,27 @@
+[
+  {
+    "Code": "@Accessibility",
+    "Name": "Accessibility"
+  },
+  {
+    "Code": "@UsersId",
+    "Name": "UsersId",
+    "ParameterType": "Integer"
+  },
+  {
+    "Code": "@Id",
+    "Name": "Id",
+    "ParameterType": "Integer",
+    "IsPrimaryKey": true
+  },
+  {
+    "Code": "@EditedUserById",
+    "Name": "EditedUserById",
+    "ParameterType": "CurrentUserId"
+  },
+  {
+    "Code": "@ProjectId",
+    "Name": "ProjectId",
+    "ParameterType": "Integer"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "Code": "@ValidDate",
+    "Name": "ValidDate",
+    "ParameterType": "DateTime"
+  },
+  {
+    "Code": "@ProjectId",
+    "Name": "ProjectId",
+    "ParameterType": "Integer"
+  },
+  {
+    "Code": "@Id",
+    "Name": "Id",
+    "ParameterType": "Integer",
+    "IsPrimaryKey": true
+  },
+  {
+    "Code": "@JiraTaskCode",
+    "Name": "JiraTaskCode"
+  },
+  {
+    "Code": "@EditedUserById",
+    "Name": "EditedUserById",
+    "ParameterType": "CurrentUserId"
+  },
+  {
+    "Code": "@Note",
+    "Name": "Note"
+  }
+]

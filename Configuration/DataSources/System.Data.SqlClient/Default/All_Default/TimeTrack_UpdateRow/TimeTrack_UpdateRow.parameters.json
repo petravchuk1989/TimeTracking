@@ -1,0 +1,46 @@
+[
+  {
+    "Code": "@JiraTaskCode",
+    "Name": "JiraTaskCode"
+  },
+  {
+    "Code": "@Note",
+    "Name": "Note"
+  },
+  {
+    "Code": "@CreatedUserById",
+    "Name": "CreatedUserById",
+    "ParameterType": "CurrentUserId"
+  },
+  {
+    "Code": "@Id",
+    "Name": "Id",
+    "ParameterType": "Integer",
+    "IsPrimaryKey": true
+  },
+  {
+    "Code": "@IsBusinessTime",
+    "Name": "IsBusinessTime",
+    "ParameterType": "Boolean"
+  },
+  {
+    "Code": "@StartDate",
+    "Name": "StartDate",
+    "ParameterType": "DateTime"
+  },
+  {
+    "Code": "@EndDate",
+    "Name": "EndDate",
+    "ParameterType": "DateTime"
+  },
+  {
+    "Code": "@ListTasksId",
+    "Name": "ListTasksId",
+    "ParameterType": "Integer"
+  },
+  {
+    "Code": "@StatusId",
+    "Name": "StatusId",
+    "ParameterType": "Integer"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "Code": "Group1",
+  "Name": "Group1",
+  "Position": 1,
+  "Fields": [
+    {
+      "Code": "UsersId",
+      "Name": "Пользователь",
+      "FieldType": "select",
+      "IsRequired": true,
+      "Position": 1,
+      "QueryCode": "List_Users",
+      "KeyColumnCode": "Id",
+      "DisplayColumnCode": "Name",
+      "QueryParameters": []
+    },
+    {
+      "Code": "RoleId",
+      "Name": "Роль",
+      "FieldType": "select",
+      "IsRequired": true,
+      "Position": 2,
+      "QueryCode": "List_Role",
+      "KeyColumnCode": "Id",
+      "DisplayColumnCode": "Name",
+      "QueryParameters": []
+    }
+  ]
+}

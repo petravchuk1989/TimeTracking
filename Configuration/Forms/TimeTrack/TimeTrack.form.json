@@ -1,0 +1,13 @@
+{
+  "ModelType": "Form",
+  "Code": "TimeTrack",
+  "Name": "4. Трек времени",
+  "IsPrintable": false,
+  "Details": [],
+  "Config": {
+    "FieldGroups": [
+      "string:FieldGroups\\Group1.fieldgroup.json"
+    ],
+    "DefaultFields": []
+  }
+}

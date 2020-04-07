@@ -1,0 +1,13 @@
+{
+  "ModelType": "Form",
+  "Code": "TimeTrackStatus",
+  "Name": "5. Перечень статусов",
+  "IsPrintable": false,
+  "Details": [],
+  "Config": {
+    "FieldGroups": [
+      "string:FieldGroups\\Group1.fieldgroup.json"
+    ],
+    "DefaultFields": []
+  }
+}

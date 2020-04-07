@@ -1,0 +1,62 @@
+[
+  {
+    "Code": "Id",
+    "Name": "Id",
+    "Position": 0,
+    "IsPrintable": false
+  },
+  {
+    "Code": "ProjectId",
+    "Name": "ProjectId",
+    "Position": 1,
+    "IsPrintable": false
+  },
+  {
+    "Code": "Name",
+    "Name": "Name",
+    "Position": 2,
+    "IsPrintable": false
+  },
+  {
+    "Code": "UsersId",
+    "Name": "UsersId",
+    "Position": 3,
+    "IsPrintable": false
+  },
+  {
+    "Code": "FIO",
+    "Name": "FIO",
+    "Position": 4,
+    "IsPrintable": false
+  },
+  {
+    "Code": "Accessibility",
+    "Name": "Accessibility",
+    "Position": 5,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CreatedAt",
+    "Name": "CreatedAt",
+    "Position": 6,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CreatedUserById",
+    "Name": "CreatedUserById",
+    "Position": 7,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EditedAt",
+    "Name": "EditedAt",
+    "Position": 8,
+    "IsPrintable": false
+  },
+  {
+    "Code": "EditedUserById",
+    "Name": "EditedUserById",
+    "Position": 9,
+    "IsPrintable": false
+  }
+]

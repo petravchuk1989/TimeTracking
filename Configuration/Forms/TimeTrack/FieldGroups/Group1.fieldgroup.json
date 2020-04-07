@@ -1,0 +1,64 @@
+{
+  "Code": "Group1",
+  "Name": "Group1",
+  "Position": 1,
+  "Fields": [
+    {
+      "Code": "ListTasksId",
+      "Name": "Список заданий",
+      "FieldType": "select",
+      "IsRequired": true,
+      "Position": 1,
+      "QueryCode": "List_ListTasks",
+      "KeyColumnCode": "Id",
+      "DisplayColumnCode": "JiraTaskCode",
+      "QueryParameters": []
+    },
+    {
+      "Code": "StartDate",
+      "Name": "Дата начала",
+      "FieldType": "date-time",
+      "IsRequired": true,
+      "Position": 2
+    },
+    {
+      "Code": "EndDate",
+      "Name": "Дата окончания",
+      "FieldType": "date-time",
+      "IsRequired": true,
+      "Position": 3
+    },
+    {
+      "Code": "Note",
+      "Name": "Описание",
+      "FieldType": "textarea",
+      "IsRequired": true,
+      "Position": 4,
+      "Width": "100%"
+    },
+    {
+      "Code": "StatusId",
+      "Name": "Статус",
+      "FieldType": "select",
+      "IsRequired": true,
+      "Position": 5,
+      "QueryCode": "List_TimeTrackStatus",
+      "KeyColumnCode": "Id",
+      "DisplayColumnCode": "Name",
+      "QueryParameters": []
+    },
+    {
+      "Code": "IsBusinessTime",
+      "Name": "Бизнес время",
+      "FieldType": "checkbox",
+      "Position": 6
+    },
+    {
+      "Code": "JiraTaskCode",
+      "Name": "Перечень кодов задач",
+      "FieldType": "text",
+      "Position": 7,
+      "Width": "100%"
+    }
+  ]
+}
