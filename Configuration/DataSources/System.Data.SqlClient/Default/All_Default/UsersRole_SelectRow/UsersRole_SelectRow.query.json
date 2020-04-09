@@ -22,7 +22,8 @@
       "Code": "FIO",
       "Name": "FIO",
       "Position": 2,
-      "IsPrintable": false
+      "IsPrintable": false,
+      "ReferenceKeyCode": "UsersId"
     },
     {
       "Code": "RoleId",
@@ -34,7 +35,8 @@
       "Code": "Name",
       "Name": "Name",
       "Position": 4,
-      "IsPrintable": false
+      "IsPrintable": false,
+      "ReferenceKeyCode": "RoleId"
     },
     {
       "Code": "CreatedAt",

@@ -26,7 +26,7 @@
     },
     {
       "Code": "FIO",
-      "Name": "FIO",
+      "Name": "Ф.И.О.",
       "Position": 2,
       "IsPrintable": false,
       "SqlName": "AUser.[FIO]",
@@ -34,26 +34,40 @@
     },
     {
       "Code": "CreatedAt",
-      "Name": "CreatedAt",
+      "Name": "Дата создания записи",
       "Position": 3,
       "IsPrintable": false
     },
     {
       "Code": "CreatedUserById",
-      "Name": "CreatedUserById",
+      "Name": "Кто создал",
       "Position": 4,
+      "ViewState": "Hidden",
       "IsPrintable": false
     },
     {
-      "Code": "EditedAt",
-      "Name": "EditedAt",
+      "Code": "NameCreat",
+      "Name": "Кто создал",
       "Position": 5,
       "IsPrintable": false
     },
     {
-      "Code": "EditedUserById",
-      "Name": "EditedUserById",
+      "Code": "EditedAt",
+      "Name": "Дата редактирования записи",
       "Position": 6,
+      "IsPrintable": false
+    },
+    {
+      "Code": "EditedUserById",
+      "Name": "Кто редактировал",
+      "Position": 7,
+      "ViewState": "Hidden",
+      "IsPrintable": false
+    },
+    {
+      "Code": "NameEd",
+      "Name": "Кто редактировал",
+      "Position": 8,
       "IsPrintable": false
     }
   ],

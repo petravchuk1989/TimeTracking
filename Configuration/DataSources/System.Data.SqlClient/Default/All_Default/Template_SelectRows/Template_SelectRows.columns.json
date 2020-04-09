@@ -1,0 +1,80 @@
+[
+  {
+    "Code": "Id",
+    "Name": "Id",
+    "Position": 0,
+    "IsPrimaryKey": true,
+    "ViewState": "Hidden",
+    "IsPrintable": false,
+    "SqlName": "[Id]",
+    "FilterParameterCode": "@Id"
+  },
+  {
+    "Code": "CallDate",
+    "Name": "CallDate",
+    "Position": 1,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CallTime",
+    "Name": "CallTime",
+    "Position": 2,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CallDateTime",
+    "Name": "CallDateTime",
+    "Position": 3,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CallChar",
+    "Name": "CallChar",
+    "Position": 4,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CallVarchar",
+    "Name": "CallVarchar",
+    "Position": 5,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CallIntRadio",
+    "Name": "CallIntRadio",
+    "Position": 6,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CallBitCheck",
+    "Name": "CallBitCheck",
+    "Position": 7,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CallIntTree",
+    "Name": "CallIntTree",
+    "Position": 8,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CallFile",
+    "Name": "CallFile",
+    "Position": 9,
+    "IsPrintable": false,
+    "ViewState": "Hidden"
+  },
+  {
+    "Code": "CallFileName",
+    "Name": "CallFileName",
+    "Position": 10,
+    "IsPrintable": false
+  },
+  {
+    "Code": "CallImage",
+    "Name": "CallImage",
+    "Position": 11,
+    "IsPrintable": false,
+    "ViewState": "Hidden"
+  }
+]

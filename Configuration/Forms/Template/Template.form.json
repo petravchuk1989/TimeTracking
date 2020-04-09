@@ -1,0 +1,12 @@
+{
+  "ModelType": "Form",
+  "Code": "Template",
+  "Name": "Template",
+  "Details": [],
+  "Config": {
+    "FieldGroups": [
+      "string:FieldGroups\\Group1.fieldgroup.json"
+    ],
+    "DefaultFields": []
+  }
+}

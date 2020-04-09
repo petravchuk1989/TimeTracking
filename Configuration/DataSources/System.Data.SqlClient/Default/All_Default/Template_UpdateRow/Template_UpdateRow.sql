@@ -1,0 +1,12 @@
+Update [dbo].[Template] set  [CallDate] = @CallDate
+							  ,[CallTime] = @CallTime
+							  ,[CallDateTime] = @CallDateTime
+							  ,[CallChar] = @CallChar
+							  ,[CallVarchar] = @CallVarchar
+							  ,[CallIntRadio] =  @CallIntRadio
+							  ,[CallBitCheck] = @CallBitCheck
+							  ,[CallIntTree] = @CallIntTree
+							  ,[CallFile] = @CallFile
+							  ,[CallFileName] = @CallFileName
+							  ,[CallImage] = @CallImage
+Where [Id] = @Id

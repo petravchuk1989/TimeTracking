@@ -1,0 +1,90 @@
+{
+  "Code": "Group1",
+  "Name": "Group1",
+  "Position": 1,
+  "Fields": [
+    {
+      "Code": "CallDate",
+      "Name": "CallDate",
+      "FieldType": "date",
+      "Position": 1
+    },
+    {
+      "Code": "CallTime",
+      "Name": "CallTime",
+      "FieldType": "time",
+      "Position": 2
+    },
+    {
+      "Code": "CallDateTime",
+      "Name": "CallDateTime",
+      "FieldType": "date-time",
+      "Position": 3
+    },
+    {
+      "Code": "CallChar",
+      "Name": "CallChar",
+      "FieldType": "text",
+      "Position": 4
+    },
+    {
+      "Code": "CallVarchar",
+      "Name": "CallVarchar",
+      "FieldType": "text",
+      "Position": 5
+    },
+    {
+      "Code": "CallIntRadio",
+      "Name": "CallIntRadio",
+      "FieldType": "radio",
+      "Position": 6,
+      "Items": [
+        {
+          "Code": "1",
+          "Name": "Значение1"
+        },
+        {
+          "Code": "2",
+          "Name": "Значение2"
+        }
+      ]
+    },
+    {
+      "Code": "CallBitCheck",
+      "Name": "CallBitCheck",
+      "FieldType": "checkbox",
+      "Position": 7
+    },
+    {
+      "Code": "CallIntTree",
+      "Name": "CallIntTree",
+      "FieldType": "lookup",
+      "Position": 8,
+      "QueryCode": "List_TemplateCatalog",
+      "KeyColumnCode": "Id",
+      "DisplayColumnCode": "Name",
+      "QueryParameters": [],
+      "LookupType": "tree",
+      "ParentColumnCode": "ParentId"
+    },
+    {
+      "Code": "CallFile",
+      "Name": "CallFile",
+      "FieldType": "file",
+      "Position": 9,
+      "FileNameColumnCode": "CallFileName"
+    },
+    {
+      "Code": "CallFileName",
+      "Name": "CallFileName",
+      "FieldType": "text",
+      "Position": 10
+    },
+    {
+      "Code": "CallImage",
+      "Name": "CallImage",
+      "FieldType": "image",
+      "Position": 11
+    }
+  ]
+}

@@ -18,32 +18,46 @@
     },
     {
       "Code": "Name",
-      "Name": "Name",
+      "Name": "Наименование",
       "Position": 1,
       "IsPrintable": false
     },
     {
       "Code": "CreatedAt",
-      "Name": "CreatedAt",
+      "Name": "Дата создания записи",
       "Position": 2,
       "IsPrintable": false
     },
     {
       "Code": "CreatedUserById",
-      "Name": "CreatedUserById",
+      "Name": "Кто создал",
       "Position": 3,
+      "ViewState": "Hidden",
       "IsPrintable": false
     },
     {
-      "Code": "EditedAt",
-      "Name": "EditedAt",
+      "Code": "NameCreat",
+      "Name": "Кто создал",
       "Position": 4,
       "IsPrintable": false
     },
     {
-      "Code": "EditedUserById",
-      "Name": "EditedUserById",
+      "Code": "EditedAt",
+      "Name": "Дата редактирования записи",
       "Position": 5,
+      "IsPrintable": false
+    },
+    {
+      "Code": "EditedUserById",
+      "Name": "Кто редактировал",
+      "Position": 6,
+      "ViewState": "Hidden",
+      "IsPrintable": false
+    },
+    {
+      "Code": "NameEd",
+      "Name": "Кто редактировал",
+      "Position": 7,
       "IsPrintable": false
     }
   ],

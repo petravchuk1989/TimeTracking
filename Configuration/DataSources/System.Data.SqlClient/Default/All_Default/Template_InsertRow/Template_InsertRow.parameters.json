@@ -1,0 +1,54 @@
+[
+  {
+    "Code": "@CallImage",
+    "Name": "CallImage",
+    "ParameterType": "Varbinary"
+  },
+  {
+    "Code": "@CallVarchar",
+    "Name": "CallVarchar"
+  },
+  {
+    "Code": "@CallIntTree",
+    "Name": "CallIntTree",
+    "ParameterType": "Integer"
+  },
+  {
+    "Code": "@CallTime",
+    "Name": "CallTime",
+    "ParameterType": "DateTime"
+  },
+  {
+    "Code": "@CallDateTime",
+    "Name": "CallDateTime",
+    "ParameterType": "DateTime"
+  },
+  {
+    "Code": "@CallFileName",
+    "Name": "CallFileName"
+  },
+  {
+    "Code": "@CallDate",
+    "Name": "CallDate",
+    "ParameterType": "DateTime"
+  },
+  {
+    "Code": "@CallChar",
+    "Name": "CallChar"
+  },
+  {
+    "Code": "@CallBitCheck",
+    "Name": "CallBitCheck",
+    "ParameterType": "Boolean"
+  },
+  {
+    "Code": "@CallFile",
+    "Name": "CallFile",
+    "ParameterType": "Varbinary"
+  },
+  {
+    "Code": "@CallIntRadio",
+    "Name": "CallIntRadio",
+    "ParameterType": "Integer"
+  }
+]

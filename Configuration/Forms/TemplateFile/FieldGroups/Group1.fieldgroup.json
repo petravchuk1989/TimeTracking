@@ -1,0 +1,27 @@
+{
+  "Code": "Group1",
+  "Name": "Group1",
+  "Position": 1,
+  "Fields": [
+    {
+      "Code": "Name",
+      "Name": "Name",
+      "FieldType": "text",
+      "Position": 1
+    },
+    {
+      "Code": "File",
+      "Name": "File",
+      "FieldType": "file",
+      "Position": 2,
+      "FileNameColumnCode": "Name"
+    },
+    {
+      "Code": "TemplateId",
+      "Name": "TemplateId",
+      "FieldType": "number",
+      "IsRequired": true,
+      "Position": 3
+    }
+  ]
+}

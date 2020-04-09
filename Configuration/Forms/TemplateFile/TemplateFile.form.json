@@ -1,0 +1,18 @@
+{
+  "ModelType": "Form",
+  "Code": "TemplateFile",
+  "Name": "TemplateFile",
+  "Details": [],
+  "Config": {
+    "FieldGroups": [
+      "string:FieldGroups\\Group1.fieldgroup.json"
+    ],
+    "DefaultFields": [
+      {
+        "Code": "TemplateId",
+        "ParentFormFieldCodeForKeyValue": "Id",
+        "ParentFormFieldCodeForDisplayValue": "Id"
+      }
+    ]
+  }
+}

@@ -8,6 +8,7 @@
     "FieldGroups": [
       "string:FieldGroups\\Group1.fieldgroup.json"
     ],
-    "DefaultFields": []
+    "DefaultFields": [],
+    "Script": "string:TimeTrack.form.js"
   }
 }

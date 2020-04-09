@@ -25,7 +25,7 @@
     "Code": "ProjectId",
     "Name": "ProjectId",
     "Position": 3,
-    
+    "ViewState": "Hidden",
     "IsPrintable":  false
   },
   {
@@ -48,20 +48,34 @@
   },
   {
     "Code": "CreatedUserById",
-    "Name": "Id пользователя",
+    "Name": "Кто создал",
     "Position": 7,
+    "ViewState": "Hidden",
+    "IsPrintable": false
+  },
+  {
+    "Code": "NameCreat",
+    "Name": "Кто создал",
+    "Position": 8,
     "IsPrintable": false
   },
   {
     "Code": "EditedAt",
     "Name": "Дата редактирования записи",
-    "Position": 8,
+    "Position": 9,
     "IsPrintable": false
   },
   {
     "Code": "EditedUserById",
-    "Name": "Id пользователя, кто редактировал",
-    "Position": 9,
+    "Name": "Кто редактировал",
+    "Position": 10,
+    "ViewState": "Hidden",
+    "IsPrintable": false
+  },
+  {
+    "Code": "NameEd",
+    "Name": "Кто редактировал",
+    "Position": 11,
     "IsPrintable": false
   }
 ]

@@ -13,6 +13,7 @@
     "Code": "ListTasksId",
     "Name": "ListTasksId",
     "Position": 1,
+    "ViewState": "Hidden",
     "IsPrintable": false
   },
   {
@@ -74,20 +75,34 @@
   },
   {
     "Code": "CreatedUserById",
-    "Name": "Id пользователя",
+    "Name": "Кто создал",
     "Position": 11,
+    "ViewState": "Hidden",
+    "IsPrintable": false
+  },
+  {
+    "Code": "NameCreat",
+    "Name": "Кто создал",
+    "Position": 12,
     "IsPrintable": false
   },
   {
     "Code": "EditedAt",
     "Name": "Дата редактирования записи",
-    "Position": 12,
+    "Position": 13,
     "IsPrintable": false
   },
   {
     "Code": "EditedUserById",
-    "Name": "Id пользователя, кто редактировал",
-    "Position": 13,
+    "Name": "Кто редактировал",
+    "Position": 14,
+    "ViewState": "Hidden",
+    "IsPrintable": false
+  },
+  {
+    "Code": "NameEd",
+    "Name": "Кто редактировал",
+    "Position": 15,
     "IsPrintable": false
   }
 ]

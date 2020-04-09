@@ -13,32 +13,27 @@
     "Code": "ListTasksId",
     "Name": "ListTasksId",
     "Position": 1,
+    "ViewState": "Hidden",
     "IsPrintable": false
   },
   {
     "Code": "ListTasksName",
-    "Name": "ListTasksName",
+    "Name": "Списки заданий",
     "Position": 2,
     "IsPrintable": false
   },
   {
     "Code": "StartDate",
-    "Name": "StartDate",
+    "Name": "Дата начала",
     "Position": 3,
     "IsPrintable": false
   },
   {
     "Code": "EndDate",
-    "Name": "EndDate",
+    "Name": "Дата окончания",
     "Position": 4,
     "IsPrintable": false
-  },
-  {
-    "Code": "Note",
-    "Name": "Note",
-    "Position": 5,
-    "IsPrintable": false
-  },
+  }, 
   {
     "Code": "StatusId",
     "Name": "StatusId",
@@ -48,7 +43,7 @@
   },
   {
     "Code": "StatusName",
-    "Name": "StatusName",
+    "Name": "Статус",
     "Position": 7,
     "IsPrintable": false,
     "SqlName": "[TimeTrackStatus].[Name]",
@@ -56,19 +51,19 @@
   },
   {
     "Code": "IsBusinessTime",
-    "Name": "IsBusinessTime",
+    "Name": "Бизнес время",
     "Position": 8,
     "IsPrintable": false
   },
   {
     "Code": "JiraTaskCode",
-    "Name": "JiraTaskCode",
+    "Name": "Коды задач с Jira",
     "Position": 9,
     "IsPrintable": false
   },
   {
     "Code": "CreatedAt",
-    "Name": "CreatedAt",
+    "Name": "Дата создания",
     "Position": 10,
     "IsPrintable": false
   }

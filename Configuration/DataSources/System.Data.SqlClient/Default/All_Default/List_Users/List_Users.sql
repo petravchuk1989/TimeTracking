@@ -1,5 +1,5 @@
   SELECT [Id]     
-        ,[FIO] as Name     
+        ,[FIO] as [Name]
   FROM [dbo].[Users]
 where #filter_columns#
 #sort_columns#

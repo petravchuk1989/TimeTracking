@@ -1,9 +1,13 @@
+OPEN SYMMETRIC KEY SymKey
+DECRYPTION BY ASYMMETRIC KEY AsymKey
 SELECT  [TimeTrack].[Id]
       ,[TimeTrack].[ListTasksId]
-      ,[ListTasks].[Note] as [ListTasksName]
+      ,[ListTasks].[JiraTaskCode] as [ListTasksName]
       ,[TimeTrack].[StartDate]
       ,[TimeTrack].[EndDate]
-      ,[TimeTrack].[Note]
+      --,[TimeTrack].[Note]
+      --,CONVERT(nvarchar(max), [TimeTrack].[Note]) Note
+     -- ,CONVERT(nvarchar(max), DECRYPTBYKEY([TimeTrack].[Note])) Note
       ,[TimeTrack].[StatusId]
       ,[TimeTrackStatus].[Name] as [StatusName]
       ,[TimeTrack].[IsBusinessTime]

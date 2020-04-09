@@ -30,20 +30,34 @@
     },
     {
       "Code": "CreatedUserById",
-      "Name": "Id пользователя",
+      "Name": "Кто создал",
       "Position": 3,
+      "ViewState": "Hidden",
+      "IsPrintable": false
+    },
+    {
+      "Code": "NameCreat",
+      "Name": "Кто создал",
+      "Position": 4,
       "IsPrintable": false
     },
     {
       "Code": "EditedAt",
       "Name": "Дата редактирования записи",
-      "Position": 4,
+      "Position": 5,
       "IsPrintable": false
     },
     {
       "Code": "EditedUserById",
-      "Name": "Id пользователя, кто редактировал",
-      "Position": 5,
+      "Name": "Кто редактировал",      
+      "Position": 6,
+      "ViewState": "Hidden",
+      "IsPrintable": false
+    },
+    {
+      "Code": "NameEd",
+      "Name": "Кто редактировал",
+      "Position": 7,
       "IsPrintable": false
     }
   ],

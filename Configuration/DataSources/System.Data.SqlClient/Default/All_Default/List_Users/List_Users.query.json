@@ -19,7 +19,7 @@
       "Name": "Name",
       "Position": 1,
       "IsPrintable": false,
-      "SqlName": "[Name]",
+      "SqlName": "[FIO]",
       "FilterParameterCode": "@Name"
     }
   ],
