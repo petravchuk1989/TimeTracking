@@ -1,0 +1,23 @@
+{
+  "ModelType": "Query",
+  "Code": "Query1",
+  "Name": "Query1",
+  "ConnectionCode": "Default",
+  "IsUsedForRightsFilter": false,
+  "IsAnonymousAccess": false,
+  "Sql": "Query1",
+  "Columns": [
+    {
+      "Code": "Col1",
+      "Name": "Col1",
+      "Position": 0
+    }
+  ],
+  "Parameters": [
+    {
+      "Code": "@Par1",
+      "Name": "Par1",
+      "ParameterType": "Integer"
+    }
+  ]
+}
